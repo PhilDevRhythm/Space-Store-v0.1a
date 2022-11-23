@@ -25,8 +25,8 @@ function ItemCount() {
     }
 
   return (
-    <div className='card bg-black p-5 flex flex-row text-center space-x-4'>
-        <button onClick={clickHandlerUp} className='btn btn-dark'>+</button>
+    <div className='card bg-black p-1 flex flex-row text-center space-x-2 bg-white'>
+        <button onClick={clickHandlerUp} className='btn btn-dark '>+</button>
         <button className='btn btn-dark hover'>Add<strong className='text-xl p-2'>{count}</strong> to Cart </button>
         <button onClick={clickHandlerDown} className='btn btn-dark'>-</button>
        
